@@ -2,7 +2,15 @@
 
 This app assumes use of [yarn](https://yarnpkg.com/), npm should also work fine.  However dependencies are only locked with yarn, and npm may cause inconsistent results from newer dependencies being used then this app was tested with.
 
-After cloning this repository to your local computer, install dependencies by running:
+First clone this repo to your local computer:
+
+### `git clone https://github.com/mntbkr/react-login-example.git`
+
+After cloning this repository to your local computer, move into the newly created directory:
+
+### `cd react-login-example`
+
+Install dependencies by running:
 
 ### `yarn`
 
@@ -13,15 +21,9 @@ Once dependencies have been installed you can run the app with the following com
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-
-### `yarn run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
 ## Instructions to login
 
-Logins are faked against a json file found in `src -> Store -> Models -> Login -> credentials.js`
+Logins are faked against a json file found in `src -> Store -> Models -> Login -> credentials.js` [link](https://github.com/mntbkr/react-login-example/blob/master/src/Store/Models/Login/credentials.js)
 
 Any user/pass found in that file will work for a login, for a quick test you can try:
 
