@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
 ## Instructions to run
 
 This app assumes use of [yarn](https://yarnpkg.com/), npm should also work fine.  However dependencies are only locked with yarn, and npm may cause inconsistent results from newer dependencies being used then this app was tested with.
@@ -33,5 +31,9 @@ Logins are faked against a json file found in `src -> Store -> Models -> Login -
 
 Any user/pass found in that file will work for a login, for a quick test you can try:
 
-## User: test
-## Pass: 1234
+## `User: test`
+## `Pass: 1234`
+
+<hr>
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
